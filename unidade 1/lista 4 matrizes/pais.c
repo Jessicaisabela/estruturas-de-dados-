@@ -28,19 +28,16 @@ for (i=0; i<linhas; i++)
              if (j==0|| i ==0 || (i== linhas . 1 &&j !=o) || (j == colunas . 1 && i != linhas .1 ))
              { 
                 costas ++;
-             } else if (mat [i-1][j]== "." || mat [i+1][j]== "." || mat [i][j+1]== "." || mat [i][j-1] == "." )
+             } else if (mat [i-1][j]== "." || mat [i+1][j]== "." || mat [i][j+1]== "." || mat [i][j-1] == "." ) 
+             {
+                costas++;
+             }
              
-
-    
-
         }
     }
 }
 
-
-
+ printf ("%d\n", costas);
 return 0;
-
-
 
 }
