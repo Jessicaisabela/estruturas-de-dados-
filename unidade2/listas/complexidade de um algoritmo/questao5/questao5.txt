@@ -1,0 +1,14 @@
+linha 1 = n-1
+linha 3 = n - (i - 1)
+(n - 1) + (n - 2) + (n - 3) + (n - 4) + ... +1
+            (n - 1) * n / 2
+                O(n^2)
+//selection sort
+T(n) = O(n) + O(1) + O(n^2) + O(1) + O(1) + O(1)
+T(n) = O(n^2) 
+
+// sim, o Merge Sort e o Quick sort.
+ambos utilizam a tecnica de divisão e conquista para dividir o array em subarrays
+menores, ordená-los e depois agrupar de volta.
+complexidade de tempo Merge Sort: O (n log n) // pior caso
+complexidade de tempo Quick Sort: O(n^2) // pior caso

@@ -1,0 +1,15 @@
+linha 2 = c1 // declaração da variavel soma constante
+linha 3 = c2 // quantas vezes o n for declarado
+linha 4 = c3 // a mesma quantidade do laço pq esta dentro
+linha 5 = c4 // return constante
+
+T(n) = c1 + c2.n + c3.n + c4
+T (n) = n(c2 + c3) + c1 + c4
+T (n) = n . a + b
+T (n) = n . a
+T (n) = n
+O(n) - Pior caso
+
+// A complexidade de tempo é O(n) porque o tempo de execução 
+do algoritmo é linear em relação ao tamanho da entrada n, 
+ela é diretamente proporcional ao número de iterações do loop.

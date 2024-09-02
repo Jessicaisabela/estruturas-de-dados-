@@ -1,0 +1,20 @@
+linha 2 = c1 * n
+linha 3 = c2 * n
+
+busca linear
+T(n) = c1 * n + c2 * n
+T(n) = (c1 + c2) * n
+T(n) = O(n) // pior caso
+
+busca binaria
+linha 2 e 3 = O(1)
+linha 5 = O(log n)
+linha 6 = O(1)
+linha 8-12 = O(log n)
+linha 14 = O(1)
+T(n) = O(1) + O(log n) + O(1) + O(log n) + O(1)
+T(n) = O(log n)
+
+// A busca binária é mais eficiente do que a busca linear em termos de complexidade de tempo, 
+especialmente para grandes conjuntos de dados. A busca binária reduz exponencialmente o espaço de busca a cada iteração, 
+enquanto a busca linear requer a verificação de todos os elementos no pior caso.

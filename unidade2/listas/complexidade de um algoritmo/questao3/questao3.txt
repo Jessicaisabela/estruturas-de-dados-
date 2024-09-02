@@ -1,0 +1,11 @@
+linha 1 = c1 O(1)
+linha 2 = c2
+linha 3 = c3 O(1)
+linha 4 = c4
+
+T(n) = c1 ​+ c2 ​+ c3 ​+ c4
+Espaço Total = O(1) + O(1)
+T(n) = O(1) 
+
+// A função utiliza uma quantidade fixa de memória para armazenar variáveis locais, 
+independentemente do tamanho do array, portanto ela é constante.

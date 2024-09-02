@@ -1,0 +1,20 @@
+alg A 
+linha 2 = c1(n)
+linha 3 = c2(n^2)
+linha 4 = c3(n^2)
+
+T(n) = c1(n) + c2(n^2) + c3(n^2)
+T(n) = c1⋅(n) + c2 * n^2
+T(n) = O(n^2)
+
+alg B
+linha 1 = c1 * n
+linha 2 = c2 * n
+linha 3 = c3 * n
+linha 4 = c4 * m
+
+T(n) = (c1 + c2 + c3 + c4) * n
+T(n) = O(n)
+
+// o algoritmo B é mais eficiente que o algoritmo A,
+pois o tempo de execução cresce lentamente a medida que "n" aumenta.
